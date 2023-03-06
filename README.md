@@ -8,7 +8,6 @@ As a developer, you are tasked with creating a treasure hunt game. The user will
 - Ask clarifying questions
 
 ### 📚 User Stories
-**Story 1**
 // good dev workflow. EACH user stpry becomes it's own branch. is pushed seperately and it's own PR is created.
 - As a user, I can see a page with a three by three grid board game with a question mark in each square.
 //  branch: grid
@@ -19,19 +18,6 @@ As a developer, you are tasked with creating a treasure hunt game. The user will
 // Show props inside div in square and destructure
 // Center and resize "?"
 
-**Story 2**
-
-//Branch: alert-index    
-- As a user, when I click on one of the question marks an alert appears with the index position of that question mark in the array.
-// Setup an onClick on the Square component: <div>
-// The onClick will trigger a handle click function that will have an alert with the index of the square that is being clicked
-// Will need to pass index as props to Square
-// To gain access to the index being clicked, we need to pass index into a function an App.js from Square.
-
-**Story 3**
-- As a user, when I click on one of the question marks an alert appears with the index position of that question mark in the array.
-
-**Story 4**
 - As a user, when I click on one of the question marks instead of the alert the question mark turns into a tree emoji.
 //Branch: tree-emoji
 // Create a copy of our state array
