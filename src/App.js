@@ -17,7 +17,11 @@ const App = () => {
     ])
 
     const handleGamePlay = (index) => {
-        alert (index)
+        // alert (index)
+        let updatedBoard = [...board]
+        //emoji keboard: cmd + ctrl + space
+        updatedBoard[index] = '🌲'
+        setBoard(updatedBoard)
     }
 // value is being passed through Square as props
 // key={index} is only used in react when iterating over something
