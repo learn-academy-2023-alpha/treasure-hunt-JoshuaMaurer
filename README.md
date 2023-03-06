@@ -8,8 +8,16 @@ As a developer, you are tasked with creating a treasure hunt game. The user will
 - Ask clarifying questions
 
 ### 📚 User Stories
-
+// good dev workflow. EACH user stpry becomes it's own branch. is pushed seperately and it's own PR is created.
 - As a user, I can see a page with a three by three grid board game with a question mark in each square.
+//  branch: grid
+// iterate on board state variable to display square component for each element.
+// use styling to set up grid
+// set up a <div> for all boxes to be able to use flexbox
+// Passed the current value of the iterated board into Square props.
+// Show props inside div in square and destructure
+// Center and resize "?"
+
 - As a user, when I click on one of the question marks an alert appears with the index position of that question mark in the array.
 - As a user, when I click on one of the question marks instead of the alert the question mark turns into a tree emoji.
 - As a user, if I select the winning square the question mark will become a treasure emoji and if I select the losing square the question mark will become a bomb emoji.

@@ -6,4 +6,15 @@ h1 {
   height: 200px;
   width: 200px;
   border: 1px solid black;
+  font-size: 150px;
+  text-align: center;
+}
+
+.gameboard {
+    display: flex;
+    flex-wrap: wrap ;
+    width: 620px; 
+    /* width was determained by adding the width of the square, plus the border, plus a little extra for wiggle room */
+    margin: 0 auto;
+    /* trick to center within flexbox. auto will center it but devs say to add 0 for best practice. look up when there is time */
 }
