@@ -21,8 +21,10 @@ const App = () => {
 
     const [bombLocation, setBombLocation] = useState(Math.floor(Math.random() * board.length))
 
-// console.log("Treasure:", treasureLocation);
-// console.log("Bomb:", bombLocation);
+    const [restart, setRestart] = useState([])
+
+console.log("Treasure:", treasureLocation);
+console.log("Bomb:", bombLocation);
 
     const handleGamePlay = (index) => {
         // alert (index)
@@ -40,6 +42,12 @@ const App = () => {
             setBoard(updatedBoard)
         }
     }
+
+    const restartGame = () => {
+        setBoard()
+    }
+
+
 // value is being passed through Square as props
 // key={index} is only used in react when iterating over something
 // if more than 1 parameter passed through {board.map()} an extra set of () needed around the parameters
@@ -57,8 +65,12 @@ const App = () => {
                             index={index}
                             handleGamePlay={handleGamePlay}
                         />
+
+                        
                     )
                 })}
+
+                <button onClick={restartGame}> Restart Game</button>
             </div>
             
         </>

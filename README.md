@@ -48,6 +48,11 @@ As a developer, you are tasked with creating a treasure hunt game. The user will
 
 **Story 6**  
 - As a user, I can click on a “Play Again” button that will restart the game.
+- // Branch: restart
+- // create function to reset to original state
+- // Create a button using onClick that invokes this function
+- // Get to work better that just having the static values in the reset array
+- 
 - As a user, I can see a counter that shows how many guesses I have left. The counter starts at five and decrements one every time I click on a square that is not the treasure nor the bomb.
 - As a user, I can see a message informing me that I won the game if I select the square that contains the treasure.
 - As a user, I can see a message informing me that I lost the game if I select the square that contains the bomb.
